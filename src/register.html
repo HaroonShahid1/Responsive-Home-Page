@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Matteo Bruni">
+    <title>Register Template - tsParticles</title>
+
+    <!-- Custom styles for this template -->
+    <link href="auth.css" rel="stylesheet"/>
+</head>
+
+<body>
+<main class="box">
+    <h2>Registeration Form</h2>
+    <form action = "connect.php" method = "post">
+        <div class="inputBox">
+            <label for="userName">UserName</label>
+            <input type="text" name="userName" id="userName" placeholder="type your username" required/>
+        </div>
+
+        <div class="inputBox">
+            <label for="userPassword">Password</label>
+            <input type="password" name="userPassword" id="userPassword" placeholder="type your password"
+                   required/>
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <br>
+            <br>
+            <div>
+              <label for="male" class="radio-inline"
+                ><input
+                  type="radio"
+                  name="gender"
+                  value="m"
+                  id="male"
+                />Male</label
+              >
+              <label for="female" class="radio-inline"
+              ><input
+                type="radio"
+                name="gender"
+                value="f"
+                id="female"
+              />Female</label
+            >
+            <label for="others" class="radio-inline"
+              ><input
+                type="radio"
+                name="gender"
+                value="o"
+                id="others"
+              />Others</label
+            >
+<br>
+<br>
+
+        <div class="inputBox">
+            <label for="userEmail">Email</label>
+            <input type="email" name="Email" id="userEmail" placeholder="type your email"
+                   required/>
+        </div>
+
+        <div class="inputBox">
+            <label for="PhoneNumber">Phone Number</label>
+            <input type="phone number" name="PhoneNumber" id="userPhoneNumber" placeholder="type your number"
+                   required/>
+        </div>
+
+        <div class="inputBox">
+            <label for="Bio">Bio Info</label>
+            <input type="text" name="userbio" id="Userbio" placeholder="type your Bio " required/>
+        </div>
+
+        <button type="submit" name="" style="float: left;">Submit Form</button>
+    </form>
+</main>
+</body>
+
+</html>
